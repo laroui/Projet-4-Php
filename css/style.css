@@ -1,0 +1,36 @@
+
+/********************************************************************
+                            FLEX
+********************************************************************/
+.container__Flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.flex__6{
+    flex:50%;
+}
+
+/********************************************************************
+                            LOGIN
+********************************************************************/
+.background__Active{
+    filter: blur(20px);
+}
+
+#login{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+}
+#zone__Login{
+    display: block;
+    margin: 25%;
+    padding: 20px;
+}
